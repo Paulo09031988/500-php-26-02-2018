@@ -1,5 +1,6 @@
 <?php
 
+
 $nomeCompleto = "Paulo Donizete";
 echo $nomeCompleto;
 echo "<br>";
