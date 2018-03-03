@@ -42,7 +42,7 @@ echo "<hr>";
 
 foreach ($pessoas as $pessoa) {
 	echo $pessoa['nome'] . "\n";
-	echo $pessoa['idade'] . "\n";
-	echo $pessoa['email'] . "\n";
+	echo $pessoa['Idade'] . "\n";
+	echo $pessoa['Email'] . "\n";
 
 }

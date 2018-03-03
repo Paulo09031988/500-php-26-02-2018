@@ -23,15 +23,15 @@ foreach ($pessoa as $valor) {
 
 echo "<hr>";
 
+var_dump($pessoa);
 foreach ($pessoa as $chave => $valor) {
-	echo "$chave -> $valor \n";
+	//echo "$chave -> $valor \n";
+	if ($chave == 'nome'){
+		echo valor;
+	}
 }
 
-
-echo "<hr>";
-
-foreach ($pessoa as $valor) {
-	echo $valor . "\n";
+echo $pessoa['nome'];
 }
 
 
