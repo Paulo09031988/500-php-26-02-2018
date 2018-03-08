@@ -18,7 +18,7 @@ $query = "SELECT * FROM posts";
 
 $result = msqli_query($conexao,$query);
 
-echo "<pre>"
+echo "<pre>";
 while ($row = mysql_fetch_assoc($result)){
-	print_r($row)
+	print_r($row);
 }	

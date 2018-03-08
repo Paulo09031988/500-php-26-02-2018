@@ -17,9 +17,9 @@ echo "<hr>";
 $con = pg_connect($con_string);
 
 
-$sql = "INSERT INTO usuarios(usuario,senha) VALUES ('lucas','123')";
+//$sql = "INSERT INTO usuarios(usuario,senha) VALUES ('lucas','123')";
 
-pg_query($con,$sql);
+//pg_query($con,$sql);
 	
 $sql = "SELECT * FROM usuarios";
 
