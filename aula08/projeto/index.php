@@ -24,8 +24,16 @@
 		<tr>
 			<td><?php echo $usuario['id'];?></td>
 			<td><?php echo $usuario['usuario'];?></td>
+			<td>
+				
+				<a href="edit.php?id=<?php echo $suario['id'];?>"
+				class="btn btn-info">Editor Usuario</a>
+				<form action="delete.php" method="POST">
+						<input type="hidden" name="id" value="<?php echo $usuario['id'];?>">
+						<input type="submit" class="btn btn-danger" value="Deletar" >
+					</form>
+
 			</td>
-			<td></td>
 		</tr>
 
 	<?php endforeach; ?>
