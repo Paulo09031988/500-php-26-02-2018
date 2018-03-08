@@ -16,6 +16,21 @@
 		</thead>
 		<tbody>
 		
+
+		<?php if(listaUsuarios()) : ?>
+		<?php foreach (listaUsuarios() as $usuario) :
+		?>
+
+		<tr>
+			<td><?php echo $usuario['id'];?></td>
+			<td><?php echo $usuario['usuario'];?></td>
+			</td>
+			<td></td>
+		</tr>
+
+	<?php endforeach; ?>
+	<?php endif; ?>
+
 		</tbody>
 	</table>
 

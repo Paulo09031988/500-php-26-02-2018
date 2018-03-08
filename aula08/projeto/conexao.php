@@ -3,8 +3,8 @@
 $host   = "localhost";
 $port   = "5432";
 $dbname = "aula08";
-$user   = "lucas";
-$pass   = "123";
+$user   = "paulo";
+$pass   = "456";
 
 $con_string = "host={$host} port={$port} dbname={$dbname} user={$user} password={$pass}";
 
