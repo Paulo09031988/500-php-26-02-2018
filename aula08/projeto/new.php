@@ -20,8 +20,19 @@
 		<button type="submit" class="btn btn-default">Cadastrar</button>
 	</form>
 </div>
+<?php
+	if (!empty($_POST)){
 
+		$usuario = [
+			'usuario' => $_POST['usuario'],
+			'senha' => $_POST['senha']
+		];
 
+		inserUsuario($usuario);
 
+		herder("location:inde.php");
+	}
+
+?>
 <?php include 'rodape.php' ?>
 
